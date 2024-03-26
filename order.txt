@@ -1,0 +1,29 @@
+<!DOCTYPE html>: ระบุเอกสารเป็น HTML5.
+<html lang="en">: ระบุภาษาของเอกสารเป็นภาษาอังกฤษ.
+<head>: ส่วนหัวของเอกสารที่มีข้อมูลเกี่ยวกับเว็บไซต์ เช่น charset, viewport, และ stylesheet.
+<meta charset="UTF-8">: ระบุการใช้งาน charset เป็น UTF-8.
+<meta http-equiv="X-UA-Compatible" content="IE=edge">: ระบุเวอร์ชันของ IE.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: ระบุ viewport เพื่อให้เว็บไซต์ปรับขนาดได้.
+<link rel="stylesheet" href="style.css">: เชื่อมโยงไฟล์ CSS ชื่อ style.css เข้ากับเอกสาร HTML.
+<title>Foodie</title>: กำหนดชื่อเว็บไซต์เป็น "Foodie".
+<link rel="preconnect" href="https://fonts.googleapis.com">: ระบุการเชื่อมต่อล่วงหน้าไปยังเซิร์ฟเวอร์ของ Google Fonts.
+<body>: ส่วนเนื้อหาของเว็บไซต์.
+<div class="container">: สร้างตัวคลุมสำหรับเนื้อหาทั้งหมดของเว็บไซต์.
+<nav id="navbar">: เมนูนำทางของเว็บไซต์.
+<div class="logo"><span>Foodie</span></div>: โลโก้ของเว็บไซต์.
+<ul>: รายการเมนู.
+<li><a href="/index.html">Home</a></li>: เมนูหน้าหลัก.
+<li><a href="/menu.html">Menu</a></li>: เมนูเมนูอาหาร.
+<li><a href="/about.html">About</a></li>: เมนูเกี่ยวกับ.
+<li><a href="/order.html">Order</a></li>: เมนูสั่งอาหาร.
+<div id="order">: ส่วนเนื้อหาเกี่ยวกับการสั่งอาหาร.
+<h1 class="title1">Order</h1>: ข้อความหัวเรื่อง "Order".
+<form action="">: แบบฟอร์มสำหรับการสั่งอาหาร.
+<input type="text" class="inp_box" placeholder="Name">: ช่องกรอกข้อมูลชื่อ.
+<input type="email" class="inp_box" placeholder="Email">: ช่องกรอกข้อมูลอีเมล.
+<textarea type="text" class="inp_box text_area" placeholder="Address"></textarea>: ช่องกรอกข้อมูลที่อยู่.
+<button class="btn2">Order Now</button>: ปุ่มสำหรับสั่งอาหาร.
+<footer>: ส่วนท้ายของเว็บไซต์.
+<div>: ส่วนที่ประกอบด้วยข้อความลิขสิทธิ์และชื่อผู้ออกแบบ.
+&copy; 2022 Foodie: ข้อความลิขสิทธิ์.
+<p>Designed by Sonika</p>: ข้อความชื่อผู้ออกแบบ.

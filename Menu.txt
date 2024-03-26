@@ -1,0 +1,30 @@
+<!DOCTYPE html>: ระบุว่านี่คือเอกสารประเภท HTML5.
+<html lang="en">: เปิดเริ่มต้นแท็ก <html> โดยระบุภาษาในเอกสารเป็นภาษาอังกฤษ (en).
+<head>: เริ่มต้นส่วนหัวของเอกสาร HTML ซึ่งมีข้อมูลเกี่ยวกับเว็บไซต์ เช่น charset, viewport, และ stylesheet.
+<meta charset="UTF-8">: ระบุการใช้งาน charset เป็น UTF-8.
+<meta http-equiv="X-UA-Compatible" content="IE=edge">: ระบุการเปิดเอกสารในโหมดเต็มรูปแบบสำหรับ Internet Explorer.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: ระบุการกำหนด viewport เพื่อให้เว็บไซต์ปรับขนาดให้เหมาะสมกับอุปกรณ์.
+<link rel="stylesheet" href="style.css">: เชื่อมโยงไฟล์ CSS ชื่อ style.css เข้ากับเอกสาร HTML.
+<title>Foodie</title>: กำหนดชื่อของเว็บไซต์ให้เป็น "Foodie".
+<link rel="preconnect" href="https://fonts.googleapis.com">: ระบุการเชื่อมต่อล่วงหน้าไปยังเซิร์ฟเวอร์ของ Google Fonts.
+<body>: เริ่มต้นส่วนของเนื้อหาของเว็บไซต์.
+<div class="container">: สร้างตัวคลุมสำหรับเนื้อหาทั้งหมดของเว็บไซต์.
+<nav id="navbar">: ส่วนเมนูนำทาง.
+<div class="logo">: ส่วนโลโก้ของเว็บไซต์.
+<ul>: รายการเมนู.
+<li><a href="/index.html">Home</a></li>: เมนูหน้าหลัก.
+<li><a href="/menu.html">Menu</a></li>: เมนูเมนูอาหาร.
+<li><a href="/about.html">About</a></li>: เมนูเกี่ยวกับ.
+<li><a href="/order.html">Order</a></li>: เมนูสั่งอาหาร.
+<div id="menu">: ส่วนแสดงเมนูอาหาร.
+<div class="heading">: ส่วนหัวของเมนู.
+<h1>Menu</h1>: ข้อความหัวเรื่อง "Menu".
+<h3>Today's Special</h3>: ข้อความเฉพาะวัน "Today's Special".
+<div class="card">: บล็อกเมนูแต่ละรายการ.
+<img>: รูปภาพแสดงสินค้า.
+<div class="details">: รายละเอียดของสินค้า.
+<div class="details-sub">: ส่วนย่อยของรายละเอียด.
+<h5>: ข้อความหัวเรื่องย่อย.
+<h5 class="price">: ราคาสินค้า.
+<p>: รายละเอียดเพิ่มเติมของสินค้า.
+<button>: ปุ่ม "Add To Cart" เพื่อเพิ่มสินค้าลงในตะกร้า.
